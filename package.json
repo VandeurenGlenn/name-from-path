@@ -38,8 +38,5 @@
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  "license": "Apache-2.0",
-  "dependencies": {
-    "check-for-match": "^0.2.0"
-  }
+  "license": "Apache-2.0"
 }
