@@ -5,7 +5,7 @@ var nameFromPath = require('../lib');
 
 describe('name-from-path', function () {
   it('should return "io-el.html"!', function () {
-    nameFromPath(['\\app\\elements\\io-el\\io-el.html', 'app\\elements'], false, function (name) {
+    nameFromPath(['\\app\\elements\\io-el\\io-el.html', 'app\\elements'], function (name) {
       assert(name, 'io-el.html');
     });
   });

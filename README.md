@@ -1,5 +1,5 @@
 # name-from-path [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> 
+>
 
 ## Installation
 
@@ -10,10 +10,20 @@ $ npm install --save name-from-path
 ## Usage
 
 ```js
-var nameFromPath = require('name-from-path');
+const nameFromPath = require('name-from-path');
 
-nameFromPath('Rainbow');
+nameFromPath('some-path-to/Rainbow.txt'); // returns Rainbow.text
 ```
+
+## options
+
+### Strip extension
+```js
+const nameFromPath = require('name-from-path');
+
+nameFromPath('some-path-to/Rainbow.txt', true); // returns Rainbow
+```
+
 ## License
 
 Apache-2.0 © [Glenn Vandeuren]()
