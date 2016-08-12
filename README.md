@@ -26,7 +26,7 @@ nameFromPath('some-path-to/Rainbow.txt', true); // returns Rainbow
 
 ## License
 
-Apache-2.0 © [Glenn Vandeuren]()
+Apache-2.0 © [Glenn Vandeuren](https://vandeurenglenn.github.io/name-from-path/LICENSE)
 
 
 [npm-image]: https://badge.fury.io/js/name-from-path.svg
